@@ -61,7 +61,7 @@ html::-webkit-scrollbar {
     height: 0;
 }
 
-*/ a {
+a {
     color: #FFFCD8;
 }
 
