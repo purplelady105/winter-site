@@ -1,57 +1,86 @@
 <template>
-	<v-app>
-		<v-app-bar app color="primary" dark>
-			<div class="d-flex align-center">
-
-				<v-icon large color="#FFFCD8" class="pr-2">fas fa-dragon</v-icon>
-
-				<h1 class="menuHeaderFont">Winter Hartdegen</h1>
-
-			</div>
-
-			<v-spacer></v-spacer>
-
-		</v-app-bar>
-
-		<v-main>
-			<HelloWorld />
-		</v-main>
-	</v-app>
+    <v-app>
+        <!-- <v-container class="overflow-hidden"> -->
+        <MenuBar @setView="setView" />
+        <v-main>
+            <v-sheet id="scrolling-techniques-3" class="overflow-y-auto" max-height="600" color="transparent">
+                <v-container app class="mb-5" style="height: 1000px;">
+                    <Works v-if="view === 'Works'" />
+                    <About v-if="view === 'About'" />
+                    <Contact v-if="view === 'Contact'" />
+                </v-container>
+            </v-sheet>
+        </v-main>
+        <!-- </v-container> -->
+    </v-app>
 </template>
-
 <script>
-	/* eslint-disable */
-import HelloWorld from "./components/HelloWorld";
+/* eslint-disable */
+import MenuBar from "./components/MenuBar";
+import Works from "./components/Works";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 export default {
-	name: "App",
+    name: "App",
 
-	components: {
-		HelloWorld,
-	},
+    components: {
+        MenuBar,
+        Works,
+        About,
+        Contact
+    },
 
-	data: () => ({
-		//
-	}),
+    data: () => ({
+        view: "Works"
+    }),
+    methods: {
+        setView(newView) {
+            this.view = newView;
+        }
+    }
 };
 </script>
-
 <style>
-	#app {
-		background-color: #2B0403;
-		font-family: 'Tangerine', serif;
-		font-size: 48px;
-		color: #FFFCD8;
-	}
-	a {
-		color: #FFFCD8;
-	}
-	a:hover {
-		text-decoration: none !important;
-		color: #FFFCD8;
+#app {
+    background-color: #2B0403;
+    font-family: 'Garamond', fantasy, serif;
+    /*		font-family: Copperplate, Papyrus, fantasy;*/
+    font-size: 1.5em;
+    color: #FFFCD8;
 }
+
+html {
+    overflow-y: auto !important;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+*/ a {
+    color: #FFFCD8;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #3E0804;
+}
+
+.fantasyFont {
+    font-family: 'Tangerine', fantasy, serif;
+    font-size: 2em;
+}
+
+.fantasyBlurb {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 1em;
+}
+
 .menuHeaderFont {
-	font-size: 1em;
-	color: #FFFCD8;
+    color: #FFFCD8;
 }
 </style>
