@@ -44,7 +44,7 @@ export default {
 <style>
 #app {
     background-color: #2B0403;
-    font-family: 'Garamond', fantasy, serif;
+    font-family: 'Garamond', cursive, serif;
     /*		font-family: Copperplate, Papyrus, fantasy;*/
     font-size: 1.5em;
     color: #FFFCD8;
@@ -71,12 +71,12 @@ a:hover {
 }
 
 .fantasyFont {
-    font-family: 'Tangerine', fantasy, serif;
+    font-family: 'Tangerine', cursive;, serif;
     font-size: 2em;
 }
 
 .fantasyBlurb {
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Copperplate, Papyrus, cursive;
     font-size: 1em;
 }
 
