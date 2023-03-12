@@ -71,7 +71,7 @@ a:hover {
 }
 
 .fantasyFont {
-    font-family: 'Tangerine', cursive;, serif;
+    font-family: 'Tangerine', cursive, serif;
     font-size: 2em;
 }
 
