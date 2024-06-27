@@ -9,6 +9,11 @@
         </v-app-bar-title>
         <v-spacer></v-spacer>
         <v-btn icon>
+            <a href="https://www.barnesandnoble.com/w/the-dark-wing-winter-hartdegen/1145846118" target="_blank">
+                <v-icon>fas fa-shopping-cart</v-icon>
+            </a>
+        </v-btn>
+        <v-btn icon>
             <a href="https://www.instagram.com/narya.writes/" target="_blank">
                 <v-icon>mdi-instagram</v-icon>
             </a>
@@ -23,6 +28,7 @@
                 <v-tab @click="$emit('setView', 'Works')">Works</v-tab>
                 <v-tab @click="$emit('setView', 'About')">About</v-tab>
                 <v-tab @click="$emit('setView', 'Contact')">Contact</v-tab>
+                <!-- <v-tab @click="$emit('setView', 'Shop')">Shop</v-tab> -->
             </v-tabs>
         </template>
     </v-app-bar>
