@@ -1,0 +1,220 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cur",
+				"cursive"
+			],
+			[
+				"fant",
+				"fantasyFont"
+			],
+			[
+				"fanta",
+				"fantasyFont"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Purpl/projects/winter-site/src/App.vue",
+		"/C/Users/Purpl/projects/winter-site/src/components/Works.vue",
+		"/C/Users/Purpl/Downloads/projects/pv-pest/src/App.vue",
+		"/C/Users/Purpl/projects/winter-site/src/plugins/vuetify.js",
+		"/C/Users/Purpl/projects/winter-site/public/index.html",
+		"/C/Users/Purpl/projects/winter-site/README.md",
+		"/C/Users/Purpl/projects/winter-site/package-lock.json",
+		"/C/Users/Purpl/projects/winter-site/package.json",
+		"/C/Users/Purpl/Downloads/projects/pv-pest/src/router/index.js",
+		"/C/Users/Purpl/Downloads/projects/pv-pest/public/index.html",
+		"/C/Users/Purpl/AppData/Roaming/Sublime Text/Packages/User/.jsbeautifyrc",
+		"/C/Users/Purpl/AppData/Roaming/Sublime Text/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Users/Purpl/Downloads/projects/pv-pest/src/components/Footer.vue",
+		"/C/Users/Purpl/.ssh/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 27.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.3333333333
+	},
+	"input":
+	{
+		"height": 28.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "App.sublime-project",
+	"replace":
+	{
+		"height": 50.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 119.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
