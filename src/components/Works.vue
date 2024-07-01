@@ -33,7 +33,7 @@
                     <blockquote>
                         <p class="subheading fantasyBlurb font-italic">
                             Generations ago, two powerful races eradicated each other during the War of Light. The truth about the war has been lost to time, and the two races are shrouded in myths and legends.
-                            War wages in the West. The East is plagued by a mysterious illness and sightings of strange creatures in the mountains. The king of the Val Thaeran empire is growign more and more greedy, and the disparity between the rich and the poor is dire. A small company, led by one of the king's rebellious sons, is stealing from the rich to give to the poor &mdash; but their mission is about to change.
+                            War wages in the West. The East is plagued by a mysterious illness and sightings of strange creatures in the mountains. The king of the Val Thaeran empire is growing more and more greedy, and the disparity between the rich and the poor is dire. A small company, led by one of the king's rebellious sons, is stealing from the rich to give to the poor &mdash; but their mission is about to change.
                             One of those powerful races survived, and they want to take back what was once theirs &mdash; and it will not be long before they act.
                         </p>
                     </blockquote>
